@@ -8,6 +8,8 @@
 }
 
 body {
+    background-color: #000;
+    color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,12 +21,12 @@ body {
 main {
     padding: 60px 40px;
     border-radius: 20px;
-    box-shadow: 0 0 5px 4px rgb(194, 194, 194, .5);
+    box-shadow: 0 0 5px 4px rgba(7, 65, 213, 0.5);
 }
 
 main h1 {
     font-size: 36px;
-    color: #FA7788;
+    color: #0849ed;
 }
 
 main h2 {
@@ -33,11 +35,19 @@ main h2 {
 }
 
 main h2 a {
-    color: #FA7788;
+    color: #0849ed;
 }
 
 main h2 a:hover {
     text-decoration: underline;
+}
+
+img {
+    width: auto;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
 }
 
 form {
@@ -48,7 +58,7 @@ form {
 form > i {
     font-size: 40px;
     margin: 10px 0px;
-    background-color: #f56377;
+    background-color: #0849ed;
     color: #fff;
     padding: 20px;
     border-radius: 50%;
@@ -59,7 +69,7 @@ form > i {
 }
 
 .form__group i {
-    color: #FA7788;
+    color: #0849ed;
     font-size: 20px;
 }
 
@@ -82,7 +92,7 @@ form .button {
     border-radius: 10px;
     border: none;
     outline: none;
-    background-color: #FA7788;
+    background-color: #0849ed;
     color: #fff;
     font-weight: bold;
     font-size: 16px;
@@ -90,5 +100,5 @@ form .button {
 }
 
 form .button:hover {
-    background-color: #f56377;
+    background-color: #0639b9;
 }
